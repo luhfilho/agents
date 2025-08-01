@@ -1,5 +1,5 @@
 ---
-name: customer-support
+name: core-customer-support
 description: Handle support tickets, FAQ responses, and customer emails. Creates help docs, troubleshooting guides, and canned responses. Use PROACTIVELY for customer inquiries or support documentation.
 model: haiku
 ---

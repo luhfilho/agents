@@ -1,5 +1,5 @@
 ---
-name: ml-engineer
+name: core-ml-engineer
 description: Implement ML pipelines, model serving, and feature engineering. Handles TensorFlow/PyTorch deployment, A/B testing, and monitoring. Use PROACTIVELY for ML model integration or production deployment.
 model: sonnet
 ---

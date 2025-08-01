@@ -1,5 +1,5 @@
 ---
-name: cpp-pro
+name: core-cpp-pro
 description: Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. Use PROACTIVELY for C++ refactoring, memory safety, or complex C++ patterns.
 model: sonnet
 ---

@@ -251,9 +251,9 @@ For more sophisticated multi-subagent orchestration, use the companion [Commands
 Each subagent follows this structure:
 ```markdown
 ---
-name: subagent-name
+name: core-subagent-name
 description: When this subagent should be invoked
-model: haiku  # Optional - specify which model to use (haiku/sonnet/opus)
+model: sonnet  # Optional - specify which model to use (haiku/sonnet/opus)
 tools: tool1, tool2  # Optional - defaults to all tools
 ---
 

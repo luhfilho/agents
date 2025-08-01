@@ -1,5 +1,5 @@
 ---
-name: deployment-engineer
+name: core-deployment-engineer
 description: Configure CI/CD pipelines, Docker containers, and cloud deployments. Handles GitHub Actions, Kubernetes, and infrastructure automation. Use PROACTIVELY when setting up deployments, containers, or CI/CD workflows.
 model: sonnet
 ---

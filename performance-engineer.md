@@ -1,5 +1,5 @@
 ---
-name: performance-engineer
+name: core-performance-engineer
 description: Profile applications, optimize bottlenecks, and implement caching strategies. Handles load testing, CDN setup, and query optimization. Use PROACTIVELY for performance issues or optimization tasks.
 model: opus
 ---
