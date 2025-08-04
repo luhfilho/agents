@@ -4,7 +4,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 50 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
+This repository contains 55 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
 ## Available Subagents
 
@@ -26,6 +26,8 @@ This repository contains 50 specialized subagents that extend Claude Code's capa
 - **[typescript-pro](typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety
 - **[php-pro](php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations
 - **[java-pro](java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization
+- **[csharp-pro](csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization
+- **[unity-developer](unity-developer.md)** - Build Unity games with optimized scripts and performance tuning
 - **[ios-developer](ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI
 - **[sql-pro](sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas
 
@@ -65,6 +67,11 @@ This repository contains 50 specialized subagents that extend Claude Code's capa
 - **[legacy-modernizer](legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization
 - **[context-manager](context-manager.md)** - Manages context across multiple agents and long-running tasks
 
+### Documentation
+- **[docs-architect](docs-architect.md)** - Creates comprehensive technical documentation from existing codebases
+- **[reference-builder](reference-builder.md)** - Creates exhaustive technical references and API documentation
+- **[tutorial-engineer](tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code
+
 ### Business & Marketing
 - **[business-analyst](business-analyst.md)** - Analyze metrics, create reports, and track KPIs
 - **[content-marketer](content-marketer.md)** - Write blog posts, social media content, and email newsletters
@@ -74,12 +81,13 @@ This repository contains 50 specialized subagents that extend Claude Code's capa
 
 ## Model Assignments
 
-All 50 subagents are configured with specific Claude models based on task complexity:
+All 55 subagents are configured with specific Claude models based on task complexity:
 
-### 🚀 Haiku (Fast & Cost-Effective) - 8 agents
+### 🚀 Haiku (Fast & Cost-Effective) - 9 agents
 **Model:** `haiku`
 - `data-scientist` - SQL queries and data analysis
 - `api-documenter` - OpenAPI/Swagger documentation
+- `reference-builder` - Exhaustive technical references and API documentation
 - `business-analyst` - Metrics and KPI tracking
 - `content-marketer` - Blog posts and social media
 - `customer-support` - Support tickets and FAQs
@@ -87,7 +95,7 @@ All 50 subagents are configured with specific Claude models based on task comple
 - `search-specialist` - Web research and information gathering
 - `legal-advisor` - Privacy policies and compliance documents
 
-### ⚡ Sonnet (Balanced Performance) - 31 agents
+### ⚡ Sonnet (Balanced Performance) - 33 agents
 **Model:** `sonnet`
 
 **Development & Languages:**
@@ -100,6 +108,8 @@ All 50 subagents are configured with specific Claude models based on task comple
 - `cpp-pro` - Modern C++ with STL and templates
 - `php-pro` - Modern PHP with advanced features
 - `java-pro` - Modern Java with streams and concurrency
+- `csharp-pro` - Modern C# with .NET frameworks and patterns
+- `unity-developer` - Unity game development and optimization
 - `ios-developer` - Native iOS development with Swift/SwiftUI
 - `frontend-developer` - React components and UI
 - `ui-ux-designer` - Interface design and wireframes
@@ -127,7 +137,7 @@ All 50 subagents are configured with specific Claude models based on task comple
 - `legacy-modernizer` - Framework migrations
 - `payment-integration` - Payment processing
 
-### 🧠 Opus (Maximum Capability) - 11 agents
+### 🧠 Opus (Maximum Capability) - 13 agents
 **Model:** `opus`
 - `ai-engineer` - LLM applications and RAG systems
 - `security-auditor` - Vulnerability analysis
@@ -140,6 +150,8 @@ All 50 subagents are configured with specific Claude models based on task comple
 - `context-manager` - Multi-agent coordination
 - `quant-analyst` - Financial modeling
 - `risk-manager` - Portfolio risk management
+- `docs-architect` - Comprehensive technical documentation from codebases
+- `tutorial-engineer` - Step-by-step tutorials and educational content
 
 ## Installation
 
@@ -327,6 +339,8 @@ payment-integration → security-auditor → Validated implementation
 - **javascript-pro**: Modern JavaScript, async patterns, Node.js/browser code
 - **typescript-pro**: Advanced TypeScript, generics, type inference, enterprise patterns
 - **java-pro**: Modern Java development, streams, concurrency, Spring Boot
+- **csharp-pro**: Modern C# development, .NET frameworks, enterprise patterns
+- **unity-developer**: Unity game development, C# scripting, performance optimization
 - **ios-developer**: Native iOS development with Swift/SwiftUI
 - **sql-pro**: Database queries, schema design, query optimization
 - **mobile-developer**: React Native/Flutter development
@@ -351,6 +365,12 @@ payment-integration → security-auditor → Validated implementation
 - **debugger**: Bug investigation, error resolution
 - **error-detective**: Log analysis, error pattern recognition, root cause analysis
 - **search-specialist**: Deep web research, competitive analysis, fact-checking
+
+### 📚 Documentation
+- **api-documenter**: OpenAPI/Swagger specs, API documentation
+- **docs-architect**: Comprehensive technical documentation, architecture guides, system manuals
+- **reference-builder**: Exhaustive API references, configuration guides, parameter documentation
+- **tutorial-engineer**: Step-by-step tutorials, learning paths, educational content
 
 ### 💼 Business & Strategy
 - **business-analyst**: KPIs, revenue models, growth projections, investor metrics
